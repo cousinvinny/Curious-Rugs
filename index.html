@@ -3,32 +3,38 @@
 
 <head>
   <title>Curious Rugs</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="header.css">
 </head>
 
 <body>
-  <!--
-  <button id=showQuantity onclick="
-    console.log(`Cart Quantity: ${cartQuantity}`);
-    ">Show Quantity</button>
-  <button id=addToCart onclick="
-    console.log('Added 1 item to cart!');
-    cartQuantity = cartQuantity + 1;
-    ">Add to Cart</button>
-  <button onclick="
-    console.log('Added 2 items to cart!');
-    cartQuanity = cartQuantity+2;
-    ">+2</button>
-  <button onclick="
-    console.log('Added 3 items to cart!');
-    cartQuantity = cartQuantity+3
-    ">+3</button>
-  <button onclick="
-    console.log('Cart has been reset'); 
-    cartQuantity = 0;
-    ">Reset Cart</button>
-  <script>
-    let cartQuantity = 0; 
-  </script>-->
+  <header>
+    <div class="grid-container-header">
+      <div>Browse</div>
+      <img class="logo" src="Curious_Rugs_logo.jpg" alt="Curious Rugs Logo">
+      <div>Contact</div>
+    </div>
+  </header>
+  <div class="grid-container">
+    <div class="container-large-rug">
+      <div>Rugs for Him</div>
+    </div>
+    <div class="grid-container-rugs">
+      <div class="rug">Rug1</div>
+      <div class="rug">Rug2</div>
+      <div class="rug">Rug3</div>
+      <div class="rug">Rug4</div>
+    </div>
+  </div>
+  <div class="grid-container">
+    <div class="grid-container-rugs">
+      <div class="rug">Rug1</div>
+      <div class="rug">Rug2</div>
+      <div class="rug">Rug3</div>
+      <div class="rug">Rug4</div>
+    </div>
+    <div class="large-browse-image">Rugs for Her</div>
+  </div>
 </body>
 
 </html>

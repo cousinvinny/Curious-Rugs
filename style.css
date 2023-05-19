@@ -1,0 +1,38 @@
+.grid-container-header{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  place-items: center;
+  padding-bottom: 10px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Set two columns with equal width */
+  grid-gap: 10px; /* Add gap between grid items */
+  padding-bottom: 10px;
+  height:78vh;
+}
+
+.container-large-rug{
+  display:grid;
+  background-color:lightgreen;
+  place-items: center;
+}
+
+.grid-container-rugs{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  place-items: center;
+  background-color: lightblue;
+}
+
+.large-browse-image{
+  background-color: lightgreen;
+}
+
+
+.logo{
+  height:20vh;
+  width:20vh;
+}

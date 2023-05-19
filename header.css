@@ -1,0 +1,6 @@
+.grid-container-header{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  place-items: center;
+  padding-bottom: 10px;
+}
