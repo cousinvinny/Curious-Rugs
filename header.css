@@ -1,6 +1,46 @@
+@font-face{
+  font-family: Ubuntu;
+  src: url('fonts/ubuntu-font-family-0.83/Ubuntu-R.ttf') format('truetype');
+}
+
+.container-sale{
+  height:3vh;
+  background-color: rgb(228, 123, 123);
+  font-family: Ubuntu;
+  color: white;
+  margin-top:-1.1%;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-sale h4{
+  text-align: center;
+}
+
 .grid-container-header{
   display:grid;
   grid-template-columns: repeat(3,1fr);
   place-items: center;
   padding-bottom: 10px;
+}
+
+.browse-button{
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  font-size: 125%;
+  color:white
+}
+
+.browse-button:hover{
+  color: red;
+}
+
+.contact-button{
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  font-size: 125%;
+  color: white;
+}
+
+.contact-button:hover{
+  color:red;
 }

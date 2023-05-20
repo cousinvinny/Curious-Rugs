@@ -1,22 +1,50 @@
-.grid-container-header{
-  display:grid;
-  grid-template-columns: repeat(3,1fr);
-  place-items: center;
-  padding-bottom: 10px;
+@font-face{
+  font-family: Roboto;
+  src: url('fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');
 }
 
-.grid-container{
+
+body{
+  margin:0;
+  padding: 0;
+  background-color: rgb(72, 75, 73);
+}
+
+.container-columns{
+  display:grid;
+  grid-template-columns: 2% 96% 2%;
+}
+
+.grid-container-content{
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Set two columns with equal width */
   grid-gap: 10px; /* Add gap between grid items */
   padding-bottom: 10px;
-  height:78vh;
+  height:100vh;
+}
+
+.container-cta{
+  background-color: lightgoldenrodyellow;
+  height: 78vh;
+  margin-bottom: 10px;
+}
+
+.container-cta h1{
+  font-family: "Roboto";
+  text-align: center;
 }
 
 .container-large-rug{
   display:grid;
   background-color:lightgreen;
   place-items: center;
+  font-size: 175%;
+}
+
+.container-large-rug img{
+  height:100%;
+  width:100%;
+  object-fit:fill;
 }
 
 .grid-container-rugs{
@@ -25,14 +53,20 @@
   grid-template-rows: repeat(2, 1fr);
   place-items: center;
   background-color: lightblue;
+  font-size: 175%;
+}
+
+.grid-container-rugs img{
+  height:100%;
+  width:100%;
+  object-fit:fill;
 }
 
 .large-browse-image{
   background-color: lightgreen;
 }
 
-
 .logo{
-  height:20vh;
-  width:20vh;
+  height:35vh;
+  width:35vh;
 }
