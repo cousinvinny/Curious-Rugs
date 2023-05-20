@@ -53,7 +53,6 @@ body{
   grid-template-rows: repeat(2, 1fr);
   place-items: center;
   background-color: lightblue;
-  font-size: 175%;
 }
 
 .grid-container-rugs img{
